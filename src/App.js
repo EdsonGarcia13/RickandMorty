@@ -3,7 +3,6 @@ import PintarPersonajes from "./components/PintarPersonajes";
 import SearchBox from "./components/SearchBox";
 import React from "react";
 import "./App.css";
-import Locationinfo from "./components/LocationInfo";
 const App = () => {
     const [nombre, setNombre] = useState("");
 
