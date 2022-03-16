@@ -13,14 +13,16 @@ const PintarPersonajes = ({ nombre}) => {
 
     return (
         <div className="row mt-2">
-            
-            {loading ? (
+             {loading ? (
                 <Loading />
             ) : (
                 personajesRandom().map((personaje) => (
                     <Personaje key={personaje.id} character={personaje} />
                 ))
-            )}
+
+            ) 
+            }
+
         </div>
     );
 
