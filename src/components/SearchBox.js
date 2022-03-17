@@ -33,9 +33,16 @@ const SearchBox = ({ setNombre}) => {
                 name="nombre"
                 placeholder="Ingrese Character or Location"
             />
-            <button className="btn btn-info" type="submit">
-                Buscar
-            </button>
+            <div className="d-grid gap-2">
+                <button 
+                    className="btn btn-primary" 
+                    type="submit">
+                    Buscar
+                </button>
+            </div>
+
+
+            
         </form>
     );
 };
