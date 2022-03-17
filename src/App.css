@@ -4,3 +4,12 @@
   box-sizing: border-box;
 }
 
+.container h1{
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+}
+input{
+  text-align: center;
+  font-size: 60px;
+}
